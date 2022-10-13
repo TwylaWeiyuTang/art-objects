@@ -1,0 +1,78 @@
+.header-section {
+    position: relative;
+
+    .header-menu {
+        position: absolute;
+        left: 0;
+        top: 100px;
+
+        letter-spacing: 1px;
+        font-family: 'Syncopate', sans-serif;
+        color: #626262;
+        text-transform: uppercase;
+        font-weight: 600;
+
+        li {
+            margin: 10px 0;
+        }
+    }
+
+    .header-text{
+        font-size: 19vw;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Bai Jumjuree', sans-serif;
+        font-weight: 600;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 95vw;
+        padding-top: 15vh;
+        overflow-x: hidden;
+        position: absolute;
+        bottom: 0%;
+
+        #sticker1 {
+            width: 15vw;
+            height: fit-content;
+            transform: translateY(50%);
+            z-index: -10;
+        }
+    
+        #sticker2 {
+            width: 10vw;
+            height: fit-content;
+            transform: translateY(40%);
+        }
+
+        #sticker3 {
+            width: 15vw;
+            height: fit-content;
+            transform: translateY(-30%);
+            z-index: 8;
+        }
+
+        #sticker5 {
+            width: 15vw;
+            height: fit-content;
+        }
+
+        #sticker6 {
+            width: 15vw;
+            height: fit-content;
+            transform: translateY(50%) translateX(-20%) scaleX(-1);
+            z-index: -5;
+        }
+
+        #sticker7 {
+            width: 30vw;
+            height: fit-content;
+
+            transform: translateY(-30%) rotate(13deg);
+            margin-left: -10%;
+        }
+    }
+}
