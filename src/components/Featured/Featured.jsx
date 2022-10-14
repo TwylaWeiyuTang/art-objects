@@ -7,7 +7,7 @@ const Featured = () => {
   const [firstUrl, secondUrl] = photos
 
   return (
-    <section className="featured-section">
+    <section className="featured-section" data-scroll-section>
       <div className='featured-row-layout'>
         <h6>Palace of Versailles</h6>
         <img src={firstUrl} />

@@ -2,9 +2,16 @@
     text-align: center;
     padding-bottom: 200px;
 
-    .location {
+    .creator {
         font-size: 18vw;
         text-transform: uppercase;
-        font-family: "Bodoni Moda", sans-serif;
+        font-family: "Bai Jumjuree", sans-serif;
+        font-weight: 600;
+    }
+
+    .location {
+        font-size: 5vw;
+        font-family: 'Bai Moda', serif;
+        font-style: italic;
     }
 }

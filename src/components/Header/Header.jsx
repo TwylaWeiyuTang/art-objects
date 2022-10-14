@@ -12,7 +12,7 @@ const Header = () => {
   const [firstUrl, secondUrl, thirdUrl, fourthUrl] = photos
 
   return (
-    <section className='header-section'>
+    <section className='header-section' data-scroll-section>
       <ul className='header-menu'>
         <li>Intro</li>
         <li>About</li>

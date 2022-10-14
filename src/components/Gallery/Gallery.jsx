@@ -54,7 +54,7 @@ const GalleryItem = ({src, category, subtitle, title, updateActiveImage, index})
 const Gallery = () => {
   const [activeImage, setActiveImage] = useState(1)
   return (
-    <section className='gallery-section'>
+    <section className='gallery-section' data-scroll-section>
       <div className='gallery'>
         <div className='gallery-counter'>
           <span>{activeImage}</span>
