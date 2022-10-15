@@ -7,11 +7,22 @@
         text-transform: uppercase;
         font-family: "Bai Jumjuree", sans-serif;
         font-weight: 600;
+        opacity: 0;
+
+        &.is-reveal {
+            opacity: 1;
+        }
     }
 
     .location {
         font-size: 5vw;
         font-family: 'Bai Moda', serif;
         font-style: italic;
+        opacity: 0;
+
+        &.is-reveal {
+            opacity: 1;
+        }
     }
+
 }
