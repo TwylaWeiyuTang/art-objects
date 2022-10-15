@@ -17,12 +17,20 @@
         }
     }
 
-    .header-text{
+    #header-text{
         font-size: 19vw;
         text-transform: uppercase;
         text-align: center;
         font-family: 'Bai Jumjuree', sans-serif;
         font-weight: 600;
+    }
+
+    .lineParent {
+        overflow: hidden;
+    }
+
+    .lineChildren{
+        transform: translate(0, 500px);
     }
 
     .images {

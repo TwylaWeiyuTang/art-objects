@@ -20,7 +20,7 @@ const Home = () => {
   useLocoScroll(!preloader)
 
   // the timer for the loading page is 3s
-  const [timer, setTimer] = useState(3)
+  const [timer, setTimer] = useState(1)
 
   const id = useRef(null)
 
