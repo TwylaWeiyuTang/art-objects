@@ -4,9 +4,9 @@ import './style.scss'
 const Navbar = () => {
   return (
     <div className='navbar' data-scroll-section>
-      <div>menu</div>
+      <div>about</div>
       <div>twyla tang</div>
-      <div>cart</div>
+      <div>gallery</div>
     </div>
   )
 }

@@ -11,31 +11,31 @@ import useOnScreen from '../../hooks/useOnScreen'
 const images = [
   {
     src:
-      "https://images.unsplash.com/photo-1566204773863-cf63e6d4ab88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1345&q=100",
-    title: "Dracaena Trifasciata",
-    subtitle: "Live the Beauty",
-    category: "Shooting / Adv.Campaing",
+      "https://images.unsplash.com/photo-1584285418504-010afe0e2676?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1416&q=80",
+    title: "Coastal Scene with the Embarkation of Saint Paul",
+    subtitle: "1655",
+    category: "By Claude Lorrain",
   },
   {
     src:
-      "https://images.unsplash.com/photo-1558603668-6570496b66f8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1300&q=100",
-    title: "Cereus Penuvianus",
-    subtitle: "Live the Beauty",
-    category: "Shooting / Adv.Campaing",
+      "https://images.unsplash.com/photo-1579009420909-b837eefa4274?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1427&q=80",
+    title: "Garden Motif",
+    subtitle: "1905",
+    category: "Pitthordt Ludovit",
   },
   {
     src:
-      "https://images.unsplash.com/photo-1567225557594-88d73e55f2cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=100",
-    title: "Calliope",
-    subtitle: "Live the Beauty",
-    category: "Shooting / Adv.Campaing",
+      "https://images.unsplash.com/photo-1614247262098-76459e80e152?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1341&q=80",
+    title: "Cleopatra's Banquet",
+    subtitle: "1675-1680",
+    category: "By Gerad de Lairesse",
   },
   {
     src:
-      "https://images.unsplash.com/photo-1611145367651-6303b46e4040?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2006&q=100",
-    title: "Golden Pothos",
-    subtitle: "Living Room",
-    category: "Shooting / Adv.Campaing",
+      "https://images.unsplash.com/photo-1577720580479-7d839d829c73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1084&q=80",
+    title: "Near Brodick",
+    subtitle: "1849-1851",
+    category: "William Andrews Nesfield",
   },
 ];
 
@@ -95,7 +95,7 @@ const Gallery = ({src, index, columnOffset}) => {
     setActiveImage(index + 1)
   }
   return (
-    <section className='gallery-section' data-scroll-section>
+    <section className='gallery-section' id='gallery-section-id' data-scroll-section>
       <div className='gallery' ref={ref}>
         <div className='gallery-counter'>
           <span>{activeImage}</span>
