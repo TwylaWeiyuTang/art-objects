@@ -10,6 +10,7 @@ export default function useLocoScroll (start) {
     useEffect(() => {
         if (!start) return;
 
+        if (typeof document !== 'undefined') {
         const scrollEl = document.querySelector('#main-container')
         let locoScroll = new LocomotiveScroll({
             el: scrollEl,
@@ -49,6 +50,7 @@ export default function useLocoScroll (start) {
 
         ScrollTrigger.addEventListener('refresh', lsUpdate)
         ScrollTrigger.refresh()
+        
 
         return () => {
             if (locoScroll) {
@@ -57,5 +59,6 @@ export default function useLocoScroll (start) {
                 locoScroll = null
             }
         }
+    }
     }, [start])
 }
